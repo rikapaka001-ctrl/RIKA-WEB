@@ -1,13 +1,13 @@
 {
   "name": "RIKA-XMD",
   "version": "0.0.1",
-  "description": "A multi-functional WhatsApp bot Web paircode.",
+  "description": "RIKA XMD pair",
   "main": "index.js",
   "type": "module",
-  "engines" : { 
-    "npm" : ">=9.7.2",
-    "node" : ">=20.0.0"
-    },
+  "engines": { 
+    "npm": ">=9.7.2",
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "node index.js",
     "stop": "echo 'No stop functionality (use Ctrl+C to stop)'",
@@ -15,14 +15,12 @@
   },
   "author": "RIKA XMD OWNER",
   "license": "ISC",
-  "description": "RIKA XMD pair",
   "dependencies": {
-    "@whiskeysockets/baileys": "latest",
-    "jimp": "^1.6.1",
+    "@whiskeysockets/baileys": "^6.7.5",
     "qrcode": "^1.5.4",
-    "awesome-phonenumber": "7.2.0",
-    "pino": "9.5.0",
-    "phone" : "3.1.55",
+    "awesome-phonenumber": "^7.2.0",
+    "pino": "^9.5.0",
+    "phone": "^3.1.55",
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "path": "^0.12.7",
