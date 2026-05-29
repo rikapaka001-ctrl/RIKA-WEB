@@ -16,7 +16,7 @@
   "author": "RIKA XMD OWNER",
   "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.5",
+    "@whiskeysockets/baileys": "^6.6.0",
     "qrcode": "^1.5.4",
     "awesome-phonenumber": "^7.2.0",
     "pino": "^9.5.0",
